@@ -1,3 +1,8 @@
+### The output images are stored in graphs folder.  Plot1.R through Plot4.R contain the R codes that produce these plots.
+
+### Assumptions
+The codes assume that the data in the text file format (dataset.txt) is in the working directory and that the data file (dataset.txt) only includes the data from 2007-2-1 and 2007-2-2.  
+
 ## Introduction
 
 This assignment uses data from
