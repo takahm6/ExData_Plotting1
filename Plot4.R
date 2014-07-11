@@ -68,7 +68,7 @@ lines(hpc$New_Date, hpc$Sub_metering_2, col="red")
 lines(hpc$New_Date, hpc$Sub_metering_3, col="blue")
 
 ## Adding legends
-legend("topright", names(hpc)[7:9], lty =1, col=c("black", "red", "blue"))
+legend("topright", names(hpc)[7:9], lty =1, bty="n", col=c("black", "red", "blue"))
 
 ## Plot the graph at the bottom right
 plot(hpc$New_Date, hpc$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
